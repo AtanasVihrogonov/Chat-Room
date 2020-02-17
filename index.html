@@ -49,16 +49,11 @@
       <div class="update-mssg"></div>
     </form>
   </div>
-  <!-- NoSQL database -->
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  
+  <script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
   <script>
-    // Your web app's Firebase configuration
     var firebaseConfig = {
       apiKey: "AIzaSyDEt62wPJA84Yev56miYgnSdwMQoXT-GH8",
       authDomain: "js-project-16eca.firebaseapp.com",
@@ -69,9 +64,7 @@
       appId: "1:626265146603:web:8bfaaecc2f3d5e3af66aae",
       measurementId: "G-Q06M0GLH9H"
     };
-    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
     const db = firebase.firestore();
   </script>
   <script src="./scripts/chat.js"></script>
