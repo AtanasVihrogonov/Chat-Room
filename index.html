@@ -51,32 +51,29 @@
   </div>
   <!-- NoSQL database -->
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
-
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDEt62wPJA84Yev56miYgnSdwMQoXT-GH8",
-        authDomain: "js-project-16eca.firebaseapp.com",
-        databaseURL: "https://js-project-16eca.firebaseio.com",
-        projectId: "js-project-16eca",
-        storageBucket: "js-project-16eca.appspot.com",
-        messagingSenderId: "626265146603",
-        appId: "1:626265146603:web:8bfaaecc2f3d5e3af66aae",
-        measurementId: "G-Q06M0GLH9H"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-      const db = firebase.firestore();
-    </script>
-
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDEt62wPJA84Yev56miYgnSdwMQoXT-GH8",
+      authDomain: "js-project-16eca.firebaseapp.com",
+      databaseURL: "https://js-project-16eca.firebaseio.com",
+      projectId: "js-project-16eca",
+      storageBucket: "js-project-16eca.appspot.com",
+      messagingSenderId: "626265146603",
+      appId: "1:626265146603:web:8bfaaecc2f3d5e3af66aae",
+      measurementId: "G-Q06M0GLH9H"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    const db = firebase.firestore();
+  </script>
   <script src="./scripts/chat.js"></script>
   <script src="./scripts/ui.js"></script>
   <script src="./scripts/app.js"></script>
