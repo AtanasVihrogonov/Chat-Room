@@ -1,4 +1,4 @@
-# The application "Forcast Simplfy" gives you the overview of the weather data.
+# A mutli-room chat application
 
 ## Screenshots
 ![Screen Recording](https://user-images.githubusercontent.com/45083295/74723259-2e7ce180-5232-11ea-96eb-a11d1e67622c.gif)
